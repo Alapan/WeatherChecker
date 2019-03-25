@@ -3,7 +3,7 @@ const webpack = require('webpack');
 
 const DIST = path.resolve(__dirname, 'dist');
 const SRC = path.resolve(__dirname, 'src');
-const JS = path.resolve(__dirname, 'src/js');
+const JS = path.resolve(__dirname, 'src/client/js');
 
 module.exports = {
   entry: {
